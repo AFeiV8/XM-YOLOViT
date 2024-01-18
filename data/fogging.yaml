@@ -1,0 +1,11 @@
+train: datasets/fogdatasets/train
+val:   datasets/fogdatasets/val
+
+nc: 3
+
+#Classes
+names:
+  0: pedestrian
+  1: car
+  2: lv
+
