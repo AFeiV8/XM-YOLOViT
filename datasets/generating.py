@@ -18,8 +18,8 @@ class DarkChannelPrior(nn.Module):
 
         # dark channel prior
         self.kernel_size = kernel_size
-        self.pad = nn.ReflectionPad2d(padding=kernel_size // 2)  # (c,h+2p,w+2p)
-        self.unfold = nn.Unfold(kernel_size=(self.kernel_size, self.kernel_size), padding=0)  # (c*kh*kw,n)
+        self.pad = nn.ReflectionPad2d(padding=kernel_size // 2)
+        self.unfold = nn.Unfold(kernel_size=(self.kernel_size, self.kernel_size), padding=0)
 
         # estimate A
         self.top_sample_ratio = top_sample_ratio
