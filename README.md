@@ -5,8 +5,8 @@ A novel XM-YOLOViT real-time detection algorithm for pedestrians and vehicles in
 ## Papar Information
 - Title:  `Research on real-time detection algorithm for
 pedestrian and vehicle in foggy weather based
-on lightweight XM-YOLOViT(https://ieeexplore.ieee.org/abstract/document/10365179)`
-- DOI: `10.1109/ACCESS.2023.3344666(https://ieeexplore.ieee.org/abstract/document/10365179)`
+on lightweight XM-YOLOViT`
+- DOI: [`10.1109/ACCESS.2023.3344666`](https://ieeexplore.ieee.org/abstract/document/10365179)
 
 ![XM-YOLOViT](./img/XM-YOLOViT.png)
 
